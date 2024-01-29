@@ -50,16 +50,16 @@ describe('arrays-tasks', () => {
     'sumArrays should return new array where each element is the sum of the corresponding elements from two arrays',
     () => {
       [
-        // {
-        //   arr1: [1, 2, 3],
-        //   arr2: [4, 5, 6],
-        //   expected: [5, 7, 9],
-        // },
-        // {
-        //   arr1: [10, 20, 30],
-        //   arr2: [5, 10, 15],
-        //   expected: [15, 30, 45],
-        // },
+        {
+          arr1: [1, 2, 3],
+          arr2: [4, 5, 6],
+          expected: [5, 7, 9],
+        },
+        {
+          arr1: [10, 20, 30],
+          arr2: [5, 10, 15],
+          expected: [15, 30, 45],
+        },
         {
           arr1: [-1, 0, 1],
           arr2: [1, 2, 3, 4],
